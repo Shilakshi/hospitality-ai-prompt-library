@@ -151,6 +151,3 @@ The effectiveness of the proposed prompts will be assessed through documented te
 
 ---
 
-**Academic Project:** Master of Business Analytics  
-**Project Area:** Hospitality – Hotel Accommodation and Food & Beverage Operations  
-**Portfolio Platform:** GitHub
