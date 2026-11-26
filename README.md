@@ -125,20 +125,25 @@ hospitality-ai-prompt-library/
 │
 ├── prompts/
 │   ├── README.md
-│   ├── P01_Guest_Classification/
-│   ├── P02_Guest_Information/
-│   ├── P03_Policy_Assessment/
-│   ├── P04_Service_Recovery/
-│   ├── P05_Guest_Response/
-│   ├── P06_Incident_Escalation/
-│   ├── P07_Trend_Analysis/
-│   ├── P08_Root_Cause/
-│   ├── P09_Improvement_Plan/
-│   └── P10_Management_Report/
+│   ├── P01_Guest_Classification.md
+│   ├── P02_Guest_Information.md
+│   ├── P03_Policy_Assessment.md
+│   ├── P04_Service_Recovery.md
+│   ├── P05_Guest_Response.md
+│   ├── P06_Incident_Escalation.md
+│   ├── P07_Trend_Analysis.md
+│   ├── P08_Root_Cause.md
+│   ├── P09_Improvement_Plan.md
+│   └── P10_Management_Report.md
+│
+├── audit-log/
+│   └── prompt-audit-log.md
 │
 ├── testing/
-├── audit-log/
-└── sample-data/
+│
+├── sample-data/
+│
+└── report/
 ```
 
 ## 11. Expected Outcome
