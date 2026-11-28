@@ -27,7 +27,9 @@ Each prompt will be tested and refined through multiple versions. The audit log 
 | P08 | Food Allergy Enquiry | 1.0 | Created the initial prompt with allergy-risk assessment and kitchen verification instructions. | Correctly identified the peanut allergy risk and recommended checking ingredients and cross-contact information. | Allergy-related prompts must never assume food is safe when information is incomplete. |
 | P08 | Food Allergy Enquiry | 1.1 | Added clearer urgency definitions and separated confirmed from unknown information. | Improved risk assessment and avoided unsupported regulatory claims. | Clear urgency definitions help the AI classify safety enquiries consistently. |
 | P08 | Food Allergy Enquiry | 1.2 | Removed the unrealistic 100% certainty requirement and refined food-safety instructions. | Produced the clearest and strongest response of the three versions. | Staff should follow verified hotel food-safety procedures and never guarantee allergen safety without verification. |
-| P09 | Hotel Operational Improvement Action Plan | v1.0 | To be developed. | Testing pending. | To be evaluated. |
+| P09 | Guest Complaint Handling | 1.0 | Created initial complaint-handling prompt with eight assessment sections. | Identified housekeeping and service-recovery issues but suggested an unauthorised complimentary gesture. | Compensation must be authorised by management. |
+| P09 | Guest Complaint Handling | 1.1 | Improved fact verification, compensation controls and guest preference confirmation. | Produced a more accurate and controlled response with fewer assumptions. | Separate reported information from facts requiring verification. |
+| P09 | Guest Complaint Handling | 1.2 | Added immediate hygiene and safety escalation triggers and refined operational instructions. | Produced the strongest response with clearer safety and management procedures. | Guest safety, verified information and authorised service recovery must be prioritised. |
 | P10 | Hotel Management Performance Report | v1.0 | To be developed. | Testing pending. | To be evaluated. |
 
 ## Evaluation Criteria
