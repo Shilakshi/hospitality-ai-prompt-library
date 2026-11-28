@@ -30,7 +30,9 @@ Each prompt will be tested and refined through multiple versions. The audit log 
 | P09 | Guest Complaint Handling | 1.0 | Created initial complaint-handling prompt with eight assessment sections. | Identified housekeeping and service-recovery issues but suggested an unauthorised complimentary gesture. | Compensation must be authorised by management. |
 | P09 | Guest Complaint Handling | 1.1 | Improved fact verification, compensation controls and guest preference confirmation. | Produced a more accurate and controlled response with fewer assumptions. | Separate reported information from facts requiring verification. |
 | P09 | Guest Complaint Handling | 1.2 | Added immediate hygiene and safety escalation triggers and refined operational instructions. | Produced the strongest response with clearer safety and management procedures. | Guest safety, verified information and authorised service recovery must be prioritised. |
-| P10 | Hotel Management Performance Report | v1.0 | To be developed. | Testing pending. | To be evaluated. |
+| P10 | Hotel Management Reporting | v1.0 | Created the initial management reporting prompt with operational summaries, risks and action priorities. | Produced a structured report but assigned some priorities without sufficient evidence. | Management reports must distinguish known facts from assumptions and potential risks. |
+| P10 | Hotel Management Reporting | v1.1 | Improved fact verification, departmental impact analysis and provisional priority explanations. | Better separated confirmed information from unknown details, but some High priorities were still assigned without sufficient evidence. | Priority levels should be based on verified severity and urgency. |
+| P10 | Hotel Management Reporting | v1.2 | Refined priority assessment rules, verification requirements and escalation instructions. | Produced the strongest report, with provisional priorities, clearer verification requirements and more appropriate escalation guidance. | Clear priority criteria and fact verification improve the reliability of AI-generated management reports. |
 
 ## Evaluation Criteria
 
