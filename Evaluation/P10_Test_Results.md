@@ -31,7 +31,7 @@ Successful initial test. Version 1.0 produced a useful management report, but se
 ### Evidence
 Complete AI response retained in the ChatGPT conversation used for P10 Version 1.0 testing.
 
-**HarbourView Hotel — Daily Operations Management Report**
+**Cinnamon Ceylon Hotel — Daily Operations Management Report**
 
 **Prepared by:** Hotel Operations Analyst
 
@@ -41,7 +41,7 @@ Complete AI response retained in the ChatGPT conversation used for P10 Version 1
 
 ### 1. Management Summary
 
-HarbourView Hotel is currently operating at a high occupancy rate of 85% alongside a busy dinner service period. While high occupancy and dining demand indicate strong operational volume, immediate operational bottlenecks are present across rooms, maintenance, and guest relations. Specifically, three rooms remain uninspected, two maintenance requests are unresolved, and four guest complaints have been logged. Coordination across housekeeping, maintenance, front office, and food and beverage (F&B) is required to protect service standards during peak activity.
+ourView Hotel is currently operating at a high occupancy rate of 85% alongside a busy dinner service period. While high occupancy and dining demand indicate strong operational volume, immediate operational bottlenecks are present across rooms, maintenance, and guest relations. Specifically, three rooms remain uninspected, two maintenance requests are unresolved, and four guest complaints have been logged. Coordination across housekeeping, maintenance, front office, and food and beverage (F&B) is required to protect service standards during peak activity.
 
 ### 2. Key Operational Issues
 
