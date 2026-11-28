@@ -1,6 +1,6 @@
 # Hospitality AI Prompt Library
 
-## 1. Project Overview
+**1. Project Overview**
 
 This project develops a structured AI Prompt Library to support daily hotel operations at Cinnamon Ceylon Hotel, a hypothetical hospitality business.
 
@@ -10,7 +10,7 @@ Each prompt is developed, tested and refined through multiple versions. Testing 
 
 The project uses version control through GitHub to maintain prompt documentation, record changes and demonstrate the development process.
 
-## 2. Industry Context
+**2. Industry Context**
 
 The hospitality industry depends on effective communication, consistent service delivery and timely operational decisions.
 
@@ -28,7 +28,7 @@ AI can assist with these activities by organising information, identifying issue
 
 However, AI-generated information must be checked by authorised hotel employees, particularly where guest safety, food allergies, compensation, privacy or serious incidents are involved.
 
-## 3. Business Problem
+**3. Business Problem**
 
 Cinnamon Ceylon Hotel requires consistent and efficient processes for handling guest enquiries, complaints and operational information.
 
@@ -44,7 +44,7 @@ Without structured procedures, staff may experience:
 
 This project addresses these challenges through a structured AI Prompt Library that supports employees while maintaining human oversight and accountability.
 
-## 4. Project Objectives
+**4. Project Objectives**
 
 The main objectives are to:
 
@@ -58,7 +58,7 @@ The main objectives are to:
 8. Evaluate AI risks, limitations and the importance of human oversight.
 9. Maintain project documentation and version history through GitHub.
 
-## 5. Project Scope
+**5. Project Scope**
 
 The project focuses on the following hotel operational areas:
 
@@ -75,7 +75,7 @@ The project focuses on the following hotel operational areas:
 
 The project demonstrates how AI prompts can support hotel employees. It does not represent a fully automated hotel management system.
 
-## 6. AI Prompt Library
+**6. AI Prompt Library**
 
 The project contains 10 specialised prompts.
 
@@ -94,9 +94,9 @@ The project contains 10 specialised prompts.
 
 Each prompt is documented and tested. Where improvements are identified, revised versions are created and evaluated.
 
-## 7. AI Prompt Flow and Prompt Chaining
+**7. AI Prompt Flow and Prompt Chaining**
 
-### 7.1 Overview
+**7.1 Overview**
 
 The 10 prompts support different but related hotel operational activities.
 
@@ -104,7 +104,7 @@ Prompt chaining means using the output of one prompt as information for another 
 
 The proposed workflows below show how the prompts can work together. Some prompts operate independently, while others can be connected through the manual transfer of information.
 
-### 7.2 Workflow A – Guest Enquiry and Complaint Management
+**7.2 Workflow A – Guest Enquiry and Complaint Management**
 
 **Purpose:** To support the handling of guest enquiries and complaints from initial classification through to communication and escalation.
 
@@ -122,7 +122,7 @@ The proposed workflows below show how the prompts can work together. Some prompt
 
 **Expected outcome:** A more consistent approach to guest enquiry handling, complaint assessment, service recovery and communication.
 
-### 7.3 Workflow B – Guest Feedback and Operational Analysis
+**7.3 Workflow B – Guest Feedback and Operational Analysis**
 
 **Purpose:** To identify recurring guest concerns and support management reporting.
 
@@ -133,7 +133,7 @@ The proposed workflows below show how the prompts can work together. Some prompt
 
 **Expected outcome:** Improved visibility of guest complaint patterns and operational concerns to support management review and decision-making.
 
-### 7.4 Workflow C – Food Allergy and Dietary Safety
+**7.4 Workflow C – Food Allergy and Dietary Safety**
 
 **Purpose:** To support the careful handling of guest enquiries involving food allergies and dietary requirements.
 
@@ -147,7 +147,7 @@ The proposed workflows below show how the prompts can work together. Some prompt
 
 **Important:** AI cannot independently confirm that food is safe for a guest with an allergy. Ingredient and cross-contact information must be verified by authorised hotel staff before advice is given to the guest.
 
-### 7.5 Workflow D – Guest Complaint Handling
+**7.5 Workflow D – Guest Complaint Handling**
 
 **Purpose:** To support the investigation and resolution of an individual guest complaint.
 
@@ -161,7 +161,7 @@ The proposed workflows below show how the prompts can work together. Some prompt
 
 **Expected outcome:** More consistent complaint investigation, service recovery, escalation and follow-up.
 
-### 7.6 Prompt Chaining and Human Oversight
+**7.6 Prompt Chaining and Human Oversight**
 
 The proposed prompt chains are designed to demonstrate how information can move between different prompts.
 
@@ -178,7 +178,7 @@ Human review remains necessary for:
 - Checking guest communications before they are sent.
 - Confirming operational actions and management recommendations.
 
-## 8. Prompt Development, Version Control and Testing
+**8. Prompt Development, Version Control and Testing**
 
 The prompts are developed through an iterative process.
 
@@ -201,7 +201,7 @@ GitHub is used to maintain project files and document changes.
 
 The repository includes prompt documentation, evaluation records and audit information to demonstrate the development and refinement process.
 
-## 9. Automation Potential and Human Oversight
+**9. Automation Potential and Human Oversight**
 
 The prompt library demonstrates opportunities to support or partially automate selected hotel tasks.
 
@@ -219,7 +219,7 @@ The prompts may reduce repetitive administrative work and improve consistency.
 
 However, they should be treated as decision-support tools rather than replacements for trained hospitality employees.
 
-## 10. Risks, Limitations and Responsible AI Use
+**10. Risks, Limitations and Responsible AI Use**
 
 AI can produce inaccurate information, misunderstand guest enquiries or make assumptions when information is incomplete.
 
@@ -261,7 +261,7 @@ Employees may rely too heavily on AI-generated recommendations.
 
 *Mitigation:* AI outputs should support, not replace, employee judgement, professional knowledge and management decisions.
 
-## 11. Repository Structure
+**11. Repository Structure**
 
 The GitHub repository is used to organise the prompt library, testing documentation and project records.
 
@@ -307,7 +307,7 @@ Prompt-Library
 
 The structure provides a central location for prompt documentation, testing evidence, audit records and project information.
 
-## 12. Expected Business Benefits
+**12. Expected Business Benefits**
 
 The proposed AI Prompt Library may provide the following benefits to Cinnamon Ceylon Hotel:
 
@@ -323,7 +323,7 @@ The proposed AI Prompt Library may provide the following benefits to Cinnamon Ce
 
 These are expected benefits of the proposed approach. Actual improvements would need to be measured through implementation and operational evaluation.
 
-## 13. Project Conclusion
+**13. Project Conclusion**
 
 The Hospitality AI Prompt Library demonstrates how structured AI prompts can support different areas of hotel operations.
 
