@@ -22,6 +22,16 @@ The prompt generated a structured service recovery plan covering the complaint s
 - Avoided promising unauthorised compensation.
 - Included guest follow-up and verification.
 
+**Expected Result**
+
+The prompt should:
+- Generate practical and appropriate service recovery recommendations.
+- Prioritise immediate guest assistance and safety.
+- Use supplied hotel policies and verified information.
+- Avoid assuming staff fault, room availability or compensation entitlements.
+- Distinguish proposed actions from completed actions.
+- Identify appropriate departmental responsibilities and follow-up requirements.
+
 **Limitations Identified:**
 - Suggested placing a room out of order without confirming the hotel's relevant procedure.
 - Recommended staff coaching without first establishing whether an employee or process failure occurred.

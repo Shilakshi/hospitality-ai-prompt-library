@@ -22,6 +22,18 @@
 - Prepared a structured internal escalation summary.
 - Clearly stated that no escalation notifications had been sent.
 
+**Expected Result**
+
+The prompt should:
+- Identify potential serious complaints and safety incidents.
+- Assign an appropriate escalation priority based on supplied information.
+- Identify relevant departments and authorised personnel.
+- Distinguish guest-reported information from verified findings.
+- Follow supplied hotel policies without inventing procedures.
+- Identify evidence and information requiring verification.
+- Recommend appropriate guest wellbeing follow-up.
+- Clearly distinguish recommended actions from notifications or actions actually completed.
+
 **Observed limitations:**
 - Suggested notifying the Duty Manager based on standard hotel practices, although no formal hotel-wide escalation procedure had been supplied.
 - Suggested management approval for certain food handling decisions without a specific approval requirement in the supplied policy.

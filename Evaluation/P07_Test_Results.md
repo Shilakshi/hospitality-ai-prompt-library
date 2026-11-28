@@ -16,6 +16,18 @@ To evaluate whether P07 can accurately analyse multiple hotel guest feedback rec
 
 The test also evaluates whether the revised v1.1 prompt improves accuracy, evidence-based reasoning, and the handling of limitations compared with v1.0.
 
+**Expected Result**
+
+The prompt should:
+- Correctly classify and count all feedback records.
+- Separate complaints from positive feedback.
+- Calculate frequencies using clearly identified denominators.
+- Compare Accommodation and F&B feedback accurately.
+- Identify recurring themes without claiming unsupported trends.
+- Highlight potential safety and food safety concerns.
+- Distinguish guest-reported information from verified findings.
+- Explain dataset limitations and avoid unsupported conclusions.
+
 ## 3. Test Input Summary
 
 The test used ten fictional guest feedback records:

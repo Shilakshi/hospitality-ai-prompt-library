@@ -107,7 +107,8 @@ P03 v1.1:
 - Maintained human oversight for final compliance decisions.
 
 **Minor limitation:**
-- The management handover stated that Housekeeping Supervisor review was required under Policy Requirement 5. The wording could be clearer that supervisor notification and review are actions to be verified or arranged, rather than actions already completed.
+- The management handover stated that Housekeeping Supervisor review was required under Policy Requirement - The wording could be clearer that supervisor notification and review are actions to be verified or arranged, rather than actions already completed.
+- Future refinements should distinguish between recommended actions, actions assigned to staff and actions confirmed as completed, to avoid implying that operational follow-up has already occurred.
 
 ### 5. Comparison with v1.0
 

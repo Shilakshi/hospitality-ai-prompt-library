@@ -5,6 +5,19 @@
 - Prompt version: 1.0
 - Test scenario: Guest complains that their room was not cleaned properly, contacted reception twice without resolution, and requests compensation.
 
+**Expected Result**
+
+The prompt should:
+- Identify the main complaint and relevant departments.
+- Distinguish guest-reported information from verified facts.
+- Assign an appropriate urgency level.
+- Recommend practical corrective actions.
+- Avoid assuming room availability or promising upgrades.
+- Require management authorisation before offering compensation.
+- Confirm the guest's preferred resolution.
+- Include appropriate escalation and follow-up requirements.
+- Require human review before operational actions are implemented.
+
 ### Actual AI Output – Summary
 The AI identified Housekeeping and Front Office service recovery as the main complaint categories. It classified the complaint as High urgency, recommended immediate room rectification, record verification, management escalation and a professional guest response.
 

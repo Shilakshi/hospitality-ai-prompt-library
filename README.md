@@ -2,7 +2,7 @@
 
 ## 1. Project Overview
 
-This project develops a structured AI Prompt Library to support daily hotel operations at HarbourView Hotel, a hypothetical hospitality business.
+This project develops a structured AI Prompt Library to support daily hotel operations at Cinnamon Ceylon Hotel, a hypothetical hospitality business.
 
 The library contains 10 specialised AI prompts designed to assist hotel staff with guest enquiries, complaints, food allergy enquiries, operational analysis and management reporting.
 
@@ -30,7 +30,7 @@ However, AI-generated information must be checked by authorised hotel employees,
 
 ## 3. Business Problem
 
-HarbourView Hotel requires consistent and efficient processes for handling guest enquiries, complaints and operational information.
+Cinnamon Ceylon Hotel requires consistent and efficient processes for handling guest enquiries, complaints and operational information.
 
 Without structured procedures, staff may experience:
 
@@ -309,7 +309,7 @@ The structure provides a central location for prompt documentation, testing evid
 
 ## 12. Expected Business Benefits
 
-The proposed AI Prompt Library may provide the following benefits to HarbourView Hotel:
+The proposed AI Prompt Library may provide the following benefits to Cinnamon Ceylon Hotel:
 
 - More consistent guest enquiry handling.
 - Improved organisation of guest information.

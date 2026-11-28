@@ -1,144 +1,215 @@
-## P10 – Hotel Management Reporting (Version 1.0)
+# P10 – Hotel Management Reporting: Testing Results
 
-### Test Details
-- AI tool: ChatGPT
-- Prompt version: 1.0
-- Test scenario: Occupancy 85%, three rooms awaiting inspection, two unresolved maintenance requests, four guest complaints and a busy dinner service.
+## 1. Testing Information
+
+- **Prompt ID:** P10
+- **Prompt Name:** Hotel Management Reporting
+- **AI Tool:** ChatGPT
+- **Test Case:** Test 01 – Daily Hotel Operations Report
+- **Versions Tested:** v1.0, v1.1 and v1.2
+- **Test Status:** Comparative testing completed
+
+### Test Scenario
+
+Cinnamon Ceylon Hotel reports the following operational information:
+
+- Occupancy: 85%
+- Three rooms awaiting inspection
+- Two unresolved maintenance requests
+- Four recorded guest complaints
+- Busy dinner service
+
+The objective is to evaluate whether the prompt generates an accurate, structured and useful daily management report without making unsupported assumptions about hotel operations.
+
+### Test Input
+
+The same operational information was supplied for testing the different prompt versions to support a fair comparison.
+
+### Expected Result
+
+The prompt should:
+
+- Generate a structured daily hotel management report.
+- Accurately use the supplied operational information.
+- Distinguish confirmed facts, potential risks and unknown information.
+- Identify relevant departmental responsibilities.
+- Recommend practical actions without assuming unverified conditions.
+- Assign provisional priorities with clear explanations.
+- Identify matters requiring management attention and verification.
+- Avoid inventing operational data or making unsupported conclusions.
+- Clearly identify information requiring human review.
+
+## 2. Version 1.0 – Initial Testing Results
 
 ### Actual AI Output – Summary
-The AI generated a structured daily management report covering the operational situation, key issues, departmental impact, risks, recommended actions, priority levels and management attention. It included a priority action table.
+
+The AI generated a structured daily management report covering the operational situation, key issues, departmental impact, risks, recommended actions, priority levels and management attention.
+
+It included a priority action table and identified Housekeeping, Maintenance, Front Office and Food and Beverage as relevant departments.
 
 ### Evaluation
-- Accuracy: Good. Used the supplied operational information.
-- Clarity: Very good. Report was professionally structured.
-- Relevance: Good. Addressed the main hotel operational issues.
-- Departmental impact: Good. Identified relevant departments.
-- Risk identification: Good. Distinguished known facts from potential risks.
-- Recommendations: Good. Provided practical actions.
-- Priority levels: Needs improvement. Some priorities were assigned without sufficient information about the actual severity.
-- Management attention: Good. Identified issues requiring management review.
 
-### Improvements Identified
-1. Do not assume uninspected rooms are unavailable or delaying arrivals.
-2. Verify the nature and severity of maintenance requests before describing their impact.
-3. Explain that priorities may need adjustment after investigating severity and urgency.
-4. Distinguish recorded complaints from confirmed unresolved complaints.
-5. Make management actions more specific about what needs verification.
+| Evaluation Criteria | Result |
+|---|---|
+| Use of supplied operational information | Successful |
+| Report structure and clarity | Successful |
+| Departmental impact identification | Successful |
+| Risk identification | Generally successful |
+| Practical recommendations | Successful |
+| Priority classifications | Required improvement |
+| Management attention | Successful |
+| Factual accuracy | Required improvement |
 
-### Overall Result
-Successful initial test. Version 1.0 produced a useful management report, but several assumptions and priority classifications should be refined.
+### Observed Strengths
 
-### Evidence
-Complete AI response retained in the ChatGPT conversation used for P10 Version 1.0 testing.
+- Generated a professional and structured management report.
+- Used the supplied operational information.
+- Identified the relevant hotel departments.
+- Recognised potential operational risks.
+- Provided practical recommendations for management attention.
+- Included a priority action table.
+- Distinguished some known facts from potential risks.
 
-**Cinnamon Ceylon Hotel — Daily Operations Management Report**
+### Identified Weaknesses
 
-**Prepared by:** Hotel Operations Analyst
+- Assumed that the three uninspected rooms were unavailable and delaying arrivals without confirmation.
+- Suggested that unresolved maintenance requests might restrict room inventory without knowing their nature or severity.
+- Described check-in delays as an existing operational problem without supporting evidence.
+- Assigned priority levels without sufficient information about the actual severity of each issue.
+- Treated recorded guest complaints as active unresolved complaints without confirming their status.
+- Assumed specific operational systems and reporting arrangements without confirmation.
 
-**Location:** Melbourne, Australia
+### Proposed Improvements for v1.1
 
----
+- Do not assume uninspected rooms are unavailable or delaying arrivals.
+- Require verification of the nature and severity of maintenance requests.
+- Explain that priorities are provisional and may change after investigation.
+- Distinguish recorded complaints from confirmed unresolved complaints.
+- Separate confirmed operational information from potential risks and assumptions.
+- Avoid assuming specific hotel systems or staff responsibilities unless supplied.
+- Require the correct hotel name to be used consistently.
 
-### 1. Management Summary
+### Testing Conclusion
 
-ourView Hotel is currently operating at a high occupancy rate of 85% alongside a busy dinner service period. While high occupancy and dining demand indicate strong operational volume, immediate operational bottlenecks are present across rooms, maintenance, and guest relations. Specifically, three rooms remain uninspected, two maintenance requests are unresolved, and four guest complaints have been logged. Coordination across housekeeping, maintenance, front office, and food and beverage (F&B) is required to protect service standards during peak activity.
+P10 v1.0 generated a useful management report but required improvements in factual accuracy, priority classification and operational assumptions.
 
-### 2. Key Operational Issues
+The identified weaknesses provided a basis for refining the prompt in v1.1.
 
-* **Room Readiness Bottleneck:** Three rooms are awaiting inspection, delaying their release for incoming guests.
-* **Unresolved Maintenance:** Two maintenance requests remain open, potentially affecting room availability or facility functionality.
-* **Guest Dissatisfaction:** Four guest complaints have been recorded, requiring service recovery and resolution.
-* **Peak Dining Demand:** Dinner service is experiencing a busy period, placing immediate pressure on F&B capacity and service speed.
+## 3. Version 1.1 – Refinement and Testing Results
 
-### 3. Departmental Impact
+### Actual AI Output – Summary
 
-* **Housekeeping:** Faces inspection delays on three rooms, reducing the pool of ready-to-sell inventory needed to support the 85% occupancy rate.
-* **Maintenance:** Carrying two unresolved requests, which may restrict room inventory or impact guest-facing areas if not cleared.
-* **Front Office / Guest Relations:** Managing check-in demand at 85% occupancy with three rooms unavailable for immediate allocation, while simultaneously handling four active guest complaints.
-* **Food & Beverage (F&B):** Experiencing high service volume during the dinner period, requiring sustained kitchen and floor throughput.
+P10 v1.1 improved the separation of confirmed operational information from unknown details and potential risks.
 
-### 4. Operational Risks
+The revised output used provisional priority classifications and provided explanations for recommended actions. It also improved the distinction between reported issues and information requiring verification.
 
-* **Known Facts:**
-* Occupancy is at 85%.
-* Three rooms are awaiting inspection.
-* Two maintenance requests remain unresolved.
-* Four guest complaints have been logged.
-* Dinner service is currently busy.
+### Evaluation
 
+**Observed Strengths:**
 
-* **Potential Risks:**
-* **Check-in Delays:** If the three uninspected rooms are needed for arriving guests at 85% occupancy, front office check-in wait times could increase.
-* **Compounded Guest Dissatisfaction:** Unresolved maintenance issues, room delays, or slow dinner service could generate additional complaints beyond the four already recorded.
-* **F&B Service Bottlenecks:** Sustained high demand during dinner service risks longer ticket times, reduced table turnover, or lower dining satisfaction.
-* **Inventory Loss:** If the two unresolved maintenance requests affect guest rooms, usable room capacity may drop further during a high-occupancy period.
+- Improved the separation of confirmed facts and unknown information.
+- Used more cautious language when describing potential operational risks.
+- Provided provisional priority classifications with explanations.
+- Improved the distinction between recorded complaints and confirmed operational problems.
+- Identified information requiring further investigation.
+- Produced a more structured and evidence-based management report.
 
+**Identified Weaknesses:**
 
+- Some issues were still assigned High priority without sufficient information about their severity or urgency.
+- Some operational responsibilities and system references were still assumed rather than confirmed.
+- Further refinement was required to ensure recommendations remained conditional on available evidence.
 
-### 5. Recommended Actions
+### Proposed Improvements for v1.2
 
-* **Expedite Room Inspections:** Direct housekeeping supervisors to prioritize inspecting the three pending rooms immediately and update their status in the property management system.
-* **Resolve Open Maintenance:** Assign maintenance staff to assess and complete the two unresolved requests, prioritizing any issue affecting guest rooms or safety.
-* **Address Guest Complaints:** Have Front Office or Duty Management review all four recorded complaints, contact the affected guests, and execute appropriate service recovery.
-* **Support Dinner Service:** Deploy available supervisory or cross-trained support to the restaurant floor and pass to maintain service flow during the busy dinner period.
+- Require priorities to be provisional when severity information is unavailable.
+- Explain what additional information is needed before confirming priority levels.
+- Avoid assuming hotel systems, roles or approval arrangements.
+- Clearly distinguish confirmed information, potential risks and unknown details.
+- Ensure recommendations are based on supplied information and verified hotel procedures.
 
-### 6. Priority Levels & Action Plan
+### Testing Conclusion
 
-* **High Priority (Guest Complaints & Room Inspections):** Directly impact immediate guest experience, check-in readiness at 85% occupancy, and brand reputation.
-* **Medium Priority (Maintenance Requests & Dinner Service Support):** Essential for preventing further service degradation and maintaining operational flow, though specific severity/scope is not yet confirmed in the data.
-* **Low Priority:** None identified; all current items require active operational attention.
+P10 v1.1 demonstrated improvements over v1.0, particularly in information handling and provisional priority explanations.
 
-| Issue | Recommended Action | Priority | Responsible Department |
-| --- | --- | --- | --- |
-| Four recorded guest complaints | Review all four cases, contact affected guests, and complete service recovery | High | Front Office / Guest Relations |
-| Three rooms awaiting inspection | Prioritize supervisory inspection and release rooms to Front Office | High | Housekeeping |
-| Two unresolved maintenance requests | Assess urgency, complete repairs, and confirm room/facility readiness | Medium | Maintenance |
-| Busy dinner service period | Monitor floor/kitchen pacing and allocate supervisory support as needed | Medium | Food & Beverage |
+However, further refinement was required to reduce unsupported priority assignments and assumptions about operational responsibilities.
 
-### 7. Management Attention
+## 4. Version 1.2 – Final Testing Results
 
-* **Escalation of Guest Complaints:** Duty Management should review the four recorded complaints to determine whether any involve recurring service failures or require management-level apology or compensation.
-* **Maintenance Impact Verification:** Management should verify whether the two unresolved maintenance requests affect any of the 85% occupied rooms or blocked inventory, and approve external contractor support if internal resolution is delayed.
-* **Peak-Period Resource Allocation:** Management should monitor front office check-in queues and dinner service flow simultaneously to ensure cross-departmental support is shifted where bottlenecks develop.
+### Actual AI Output – Summary
 
-### P10 – Hotel Management Reporting – Version 1.2
+P10 v1.2 generated a structured daily management report covering operational issues, departmental impacts, potential risks, recommended actions, priority classifications and management attention.
 
-**Test Scenario:**  
-The hotel reports 85% occupancy, three rooms awaiting inspection, two unresolved maintenance requests, four recorded guest complaints and a busy dinner service.
+The response distinguished confirmed information from potential risks and unknown details. It used provisional priority classifications, explained the reasons for each priority and identified information requiring verification.
 
-**Test Result:**  
-The prompt generated a structured daily management report covering operational issues, departmental impacts, potential risks, recommended actions, priority classifications and management attention.
+### Evaluation
 
-**Evaluation:**  
-The response successfully distinguished confirmed information from potential risks and unknown details. It used provisional priority classifications, explained the reasons for each priority and identified information requiring verification. Recommendations were practical and relevant to hotel operations.
+| Evaluation Criteria | Result |
+|---|---|
+| Use of supplied operational information | Successful |
+| Separation of facts and unknown information | Successful |
+| Identification of potential risks | Successful |
+| Departmental responsibility handling | Improved |
+| Priority classification | Improved |
+| Explanation of provisional priorities | Successful |
+| Practical recommendations | Successful |
+| Identification of verification requirements | Successful |
+| Management reporting structure | Successful |
 
-**Minor Observations:**
-- Avoid describing 85% occupancy as a high volume unless this is supported by hotel operating standards.
+### Observed Strengths
+
+- Clearly distinguished confirmed information from potential risks and unknown details.
+- Used provisional priorities rather than presenting uncertain assessments as established facts.
+- Explained the reasoning behind recommended priorities.
+- Identified information requiring further verification.
+- Produced practical recommendations relevant to hotel operations.
+- Improved the reliability and usefulness of the management report.
+
+### Minor Limitations
+
+- Avoid describing 85% occupancy as high volume unless supported by the hotel's operating standards or historical data.
 - Avoid describing dinner demand as a high cover volume when actual cover numbers are not supplied.
 - Continue distinguishing supplied facts from assumptions.
+- Human management review remains necessary before operational priorities and corrective actions are confirmed.
 
-**Conclusion:**  
-Version 1.2 produced the strongest result after testing all three versions. It is the recommended final version of P10.
+### Testing Conclusion
 
-**Status:** Tested successfully – final recommended version after evaluation of Versions 1.0, 1.1 and 1.2.
+P10 v1.2 produced the strongest result following evaluation of all three versions.
 
-### P10 – Hotel Management Reporting – Version 1.2
+It demonstrated better factual accuracy, more cautious priority classification and clearer identification of operational information requiring verification.
 
-**Test Scenario:**  
-The hotel reports 85% occupancy, three rooms awaiting inspection, two unresolved maintenance requests, four recorded guest complaints and a busy dinner service.
+## 5. Version Comparison
 
-**Test Result:**  
-The prompt generated a structured daily management report covering operational issues, departmental impacts, potential risks, recommended actions, priority classifications and management attention.
+| Evaluation Area | v1.0 | v1.1 | v1.2 |
+|---|---|---|---|
+| Report structure | Good | Maintained | Maintained |
+| Use of supplied information | Good | Improved | Improved |
+| Separation of facts and unknowns | Needed improvement | Improved | Clearer |
+| Operational assumptions | Several identified | Reduced | Further controlled |
+| Priority classification | Needed improvement | Provisional priorities introduced | Better explained and controlled |
+| Departmental responsibilities | Some assumptions | Further refinement required | Improved |
+| Risk identification | Generally successful | More cautious | More evidence-based |
+| Management recommendations | Practical but some unsupported assumptions | Improved | More controlled |
 
-**Evaluation:**  
-The response successfully distinguished confirmed information from potential risks and unknown details. It used provisional priority classifications, explained the reasons for each priority and identified information requiring verification. Recommendations were practical and relevant to hotel operations.
+## 6. Lessons Learned
 
-**Minor Observations:**
-- Avoid describing 85% occupancy as a high volume unless this is supported by hotel operating standards.
-- Avoid describing dinner demand as a high cover volume when actual cover numbers are not supplied.
-- Continue distinguishing supplied facts from assumptions.
+The testing demonstrated that AI-generated management reports can provide useful operational summaries and recommendations, but they must not present assumptions as confirmed hotel conditions.
 
-**Conclusion:**  
-Version 1.2 produced the strongest result after testing all three versions. It is the recommended final version of P10.
+The main lessons were:
 
-**Status:** Tested successfully – final recommended version after evaluation of Versions 1.0, 1.1 and 1.2.
+- Management reports should clearly distinguish confirmed facts, potential risks and unknown information.
+- Priority classifications should remain provisional when severity and urgency information is incomplete.
+- Operational recommendations must be based on available evidence and verified hotel procedures.
+- Recorded complaints should not automatically be treated as unresolved complaints.
+- Departmental responsibilities and operational systems should not be assumed.
+- Management review is necessary before priorities and corrective actions are confirmed.
+
+## 7. Overall Testing Conclusion
+
+P10 v1.2 demonstrated improvements over v1.0 and v1.1 when tested using the same daily hotel operational scenario.
+
+The final version produced a more structured, cautious and evidence-based management report. It improved the handling of unknown information, provisional priorities, operational risks and management recommendations.
+
+**Testing Status:** Comparative testing completed successfully. P10 v1.2 is the recommended final version following evaluation of Versions 1.0, 1.1 and 1.2.
+
+Human management review remains essential before operational priorities, departmental actions and management decisions are confirmed.

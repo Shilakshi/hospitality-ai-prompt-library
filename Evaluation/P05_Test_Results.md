@@ -21,6 +21,17 @@
 - Avoided offering unauthorised compensation.
 - Used placeholders rather than inventing staff or hotel contact details.
 
+**Expected Result**
+
+The prompt should:
+- Generate a professional, empathetic and appropriate guest response.
+- Acknowledge the guest's concerns without making unsupported claims.
+- Use verified information from the preceding prompts.
+- Avoid unauthorised compensation or guaranteed outcomes.
+- Make service recovery commitments conditional on operational confirmation.
+- Use placeholders for missing information.
+- Require staff review before sending the response.
+
 **Observed limitations:**
 - The phrase "falls well short of our cleanliness and safety standards" could imply a confirmed policy failure, although P03 identified only potential non-compliance.
 - The phrase "Once we have resolved this for you" could imply a guaranteed outcome.
