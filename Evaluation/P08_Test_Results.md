@@ -52,6 +52,3 @@ Staff should follow the hotel's actual ordering and food-safety procedures when 
 
 ### Overall Result
 Successful test. Version 1.2 produced a clear, structured and safety-conscious response. It is the strongest of the three tested versions.
-
-### Evidence
-Complete AI response retained in the ChatGPT conversation used for P08 Version 1.2 testing.

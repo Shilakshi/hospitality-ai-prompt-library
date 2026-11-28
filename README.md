@@ -1,204 +1,338 @@
-# hospitality-ai-prompt-library
-AI prompt library for hotel accommodation and food &amp; beverage operations.
-# AI-Powered Hospitality Operations & Guest Experience Management
+# Hospitality AI Prompt Library
 
 ## 1. Project Overview
 
-This project develops a library of 10 AI prompts designed to support operational efficiency and improve guest experience within the hospitality industry.
+This project develops a structured AI Prompt Library to support daily hotel operations at HarbourView Hotel, a hypothetical hospitality business.
 
-The project focuses on hotel accommodation and Food & Beverage (F&B) operations. It explores how generative AI can assist hotel employees and management with guest enquiries, complaint handling, service recovery, operational analysis and management reporting.
+The library contains 10 specialised AI prompts designed to assist hotel staff with guest enquiries, complaints, food allergy enquiries, operational analysis and management reporting.
 
-A fictional hotel business is used as the case-study context to demonstrate how AI prompts can be designed and incorporated into practical hospitality workflows.
+Each prompt is developed, tested and refined through multiple versions. Testing helps identify weaknesses, improve accuracy and make the prompts more reliable for practical hospitality situations.
+
+The project uses version control through GitHub to maintain prompt documentation, record changes and demonstrate the development process.
 
 ## 2. Industry Context
 
-The hospitality industry involves a range of interconnected services, including guest reservations, room management, housekeeping, maintenance, restaurant operations and customer service.
+The hospitality industry depends on effective communication, consistent service delivery and timely operational decisions.
 
-Hotels regularly handle guest enquiries, service requests, complaints and operational issues across different departments. These activities require timely communication, accurate information, coordination between teams and consistent service standards.
+Hotel employees regularly manage:
 
-AI-powered prompting offers an opportunity to support these activities by helping employees organise information, prepare responses, identify recurring issues and generate useful management insights.
+- Guest enquiries and complaints.
+- Accommodation and reservation requests.
+- Food and beverage enquiries.
+- Food allergies and dietary requirements.
+- Service recovery and complaint escalation.
+- Operational issues across departments.
+- Guest feedback and management reporting.
+
+AI can assist with these activities by organising information, identifying issues, drafting responses and supporting decision-making.
+
+However, AI-generated information must be checked by authorised hotel employees, particularly where guest safety, food allergies, compensation, privacy or serious incidents are involved.
 
 ## 3. Business Problem
 
-Hotel employees may spend considerable time manually reviewing guest feedback, categorising complaints, preparing responses and compiling operational reports.
+HarbourView Hotel requires consistent and efficient processes for handling guest enquiries, complaints and operational information.
 
-Inconsistent complaint handling and limited analysis of recurring guest concerns can also make it difficult for management to identify underlying problems and implement improvements.
+Without structured procedures, staff may experience:
 
-This project explores how a connected AI prompt library could help address these operational challenges while retaining appropriate human oversight.
+- Inconsistent guest communication.
+- Important information being overlooked.
+- Delays in identifying serious complaints.
+- Incorrect assumptions about hotel policies or service availability.
+- Inadequate handling of food allergy enquiries.
+- Difficulty identifying recurring guest complaints.
+- Inconsistent operational reporting.
+
+This project addresses these challenges through a structured AI Prompt Library that supports employees while maintaining human oversight and accountability.
 
 ## 4. Project Objectives
 
 The main objectives are to:
 
-- Develop 10 structured AI prompts relevant to hotel accommodation and F&B operations.
-- Support consistent guest enquiry and complaint management.
-- Assist employees in preparing professional guest communications.
-- Identify recurring service issues and potential root causes.
-- Support operational improvement and management decision-making.
-- Evaluate the automation potential, risks and limitations of AI prompting.
-- Demonstrate iterative prompt development through testing and refinement.
+1. Develop 10 specialised AI prompts for hospitality operations.
+2. Create structured instructions for consistent AI responses.
+3. Test prompts using realistic hotel scenarios.
+4. Identify weaknesses and refine prompts through multiple versions.
+5. Document testing results and changes.
+6. Demonstrate how prompts can work individually and as connected workflows.
+7. Identify opportunities for operational improvement and automation.
+8. Evaluate AI risks, limitations and the importance of human oversight.
+9. Maintain project documentation and version history through GitHub.
 
 ## 5. Project Scope
 
-The project covers two main operational areas:
+The project focuses on the following hotel operational areas:
 
-### A. Hotel Accommodation
+- Guest enquiry classification.
+- Guest information extraction.
+- Hotel policy and service-standard assessment.
+- Guest service recovery recommendations.
+- Professional guest response drafting.
+- Serious complaint and incident escalation.
+- Guest complaint trend analysis.
+- Food allergy and dietary safety enquiries.
+- Guest complaint investigation and handling.
+- Operational management reporting.
 
-- Guest enquiries and complaints
-- Room cleanliness and housekeeping
-- Maintenance-related concerns
-- Reservations and check-in experiences
-- Guest service and issue resolution
-
-### B. Food & Beverage Operations
-
-- Restaurant service complaints
-- Food quality and dining experiences
-- Delays in food service
-- Breakfast service concerns
-- Guest feedback relating to food and beverages
+The project demonstrates how AI prompts can support hotel employees. It does not represent a fully automated hotel management system.
 
 ## 6. AI Prompt Library
 
-The proposed library contains 10 connected prompts:
+The project contains 10 specialised prompts.
 
-## 10-Prompt Library
+| Prompt ID | Prompt Name | Main Purpose |
+|---|---|---|
+| P01 | Guest Enquiry and Complaint Classification | Classifies incoming guest enquiries and complaints. |
+| P02 | Guest Information and Issue Extraction | Extracts important information and identifies missing details. |
+| P03 | Hotel Policy and Service-Standard Assessment | Assesses enquiries against available hotel policies and service standards. |
+| P04 | Guest Service Recovery Recommendations | Recommends suitable service recovery actions. |
+| P05 | Professional Guest Response Drafting | Prepares professional and appropriate guest responses. |
+| P06 | Serious Complaint and Incident Escalation | Identifies serious complaints and incidents requiring escalation. |
+| P07 | Accommodation and F&B Complaint Trend Analysis | Analyses recurring accommodation and food and beverage complaint patterns. |
+| P08 | Food Allergy Enquiry | Supports the assessment and safe handling of food allergy enquiries. |
+| P09 | Guest Complaint Handling | Supports complaint investigation, resolution and follow-up. |
+| P10 | Management Reporting | Organises operational information into a structured management report. |
 
-The prompt library contains 10 AI-powered prompts designed to support hotel accommodation and Food & Beverage (F&B) operations.
+Each prompt is documented and tested. Where improvements are identified, revised versions are created and evaluated.
 
-| Prompt ID | Prompt Name | Description |
-| :-------- | :---------- | :---------- |
-| P01 | Guest Enquiry and Complaint Classification | Classifies incoming guest messages into enquiries, complaints, compliments and other relevant categories, identifying responsible departments and priority levels. |
-| P02 | Guest Information and Issue Extraction | Extracts important guest information, complaint details, operational issues and required follow-up actions from guest messages. |
-| P03 | Hotel Policy and Service-Standard Assessment | Assesses guest complaints against supplied hotel policies and service standards to identify potential non-compliance and verification requirements. |
-| P04 | Guest Service Recovery Recommendations | Recommends suitable service recovery actions to resolve guest complaints and improve guest satisfaction. |
-| P05 | Professional Guest Response Drafting | Generates professional, empathetic and personalised responses to guest enquiries, complaints and feedback. |
-| P06 | Serious Complaint and Incident Escalation | Identifies serious guest complaints and operational incidents requiring immediate supervisor or management attention. |
-| P07 | Accommodation and F&B Complaint Trend Analysis | Analyses guest feedback to identify recurring complaints, service patterns and operational performance issues. |
-| P08 | Hotel Operational Root Cause Analysis | Investigates recurring operational problems and identifies possible underlying causes. |
-| P09 | Hotel Operational Improvement Action Plan | Develops practical improvement actions to address identified operational problems and prevent recurrence. |
-| P10 | Hotel Management Performance Report | Consolidates guest feedback trends, operational findings, root cause analysis and improvement actions into a structured report to support hotel management decision-making. |
+## 7. AI Prompt Flow and Prompt Chaining
 
-Each prompt will be documented with its actual prompt text, intended workflow or task, problem being solved, automation potential, and risks and limitations.
+### 7.1 Overview
 
-## 7. AI Prompt Chaining and Proposed Workflows
+The 10 prompts support different but related hotel operational activities.
 
-This project uses prompt chaining to connect multiple AI prompts into structured hospitality workflows.
+Prompt chaining means using the output of one prompt as information for another prompt. This can help create a more structured workflow by connecting different stages of a hotel task.
 
-Prompt chaining involves passing the output generated by one prompt into the next prompt as input. This allows individual prompts to perform specialised tasks while contributing to a larger operational process.
+The proposed workflows below show how the prompts can work together. Some prompts operate independently, while others can be connected through the manual transfer of information.
 
-The project contains two main prompt chains.
+### 7.2 Workflow A – Guest Enquiry and Complaint Management
 
-### Workflow A – Guest Complaint Management and Service Recovery
+**Purpose:** To support the handling of guest enquiries and complaints from initial classification through to communication and escalation.
 
-**Input:** Original guest enquiry or complaint.
+**Prompt flow:**
 
-1. **P01 – Guest Enquiry and Complaint Classification:** Classifies the guest message and identifies the responsible department and priority level.
+1. **P01 – Guest Enquiry and Complaint Classification:** Classifies the incoming enquiry or complaint.
+2. **P02 – Guest Information and Issue Extraction:** Extracts relevant details, identifies missing information and summarises the guest's concern.
+3. **P03 – Hotel Policy and Service-Standard Assessment:** Assesses the issue against available hotel policies and service standards.
+4. **P04 – Guest Service Recovery Recommendations:** Suggests suitable service recovery options.
+5. **P05 – Professional Guest Response Drafting:** Prepares a professional response using verified information and approved actions.
 
-2. **P02 – Guest Information and Issue Extraction:** Uses the original guest message and P01 classification output to extract relevant details and operational information.
+**Escalation branch:**
 
-3. **P03 – Hotel Policy and Service-Standard Assessment:** Uses the guest message, P01 classification, P02 extracted information and supplied hotel policies to assess potential service-standard gaps.
+- **P06 – Serious Complaint and Incident Escalation:** Can be used when the initial classification or subsequent assessment identifies a serious complaint, safety concern or incident requiring management attention.
 
-4. **P04 – Guest Service Recovery Recommendations:** Uses the complaint details and policy assessment to recommend suitable service recovery actions.
+**Expected outcome:** A more consistent approach to guest enquiry handling, complaint assessment, service recovery and communication.
 
-5. **P05 – Professional Guest Response Drafting:** Uses the guest complaint and recommended recovery actions to prepare an appropriate guest response.
+### 7.3 Workflow B – Guest Feedback and Operational Analysis
 
-6. **P06 – Serious Complaint and Incident Escalation:** Uses the complaint classification, extracted details and relevant safety or incident information to identify matters requiring supervisor or management escalation.
+**Purpose:** To identify recurring guest concerns and support management reporting.
 
-**Expected outcome:** A structured complaint management process supporting consistent assessment, service recovery, guest communication and appropriate escalation.
+**Prompt flow:**
 
-### Workflow B – Management Analysis and Operational Improvement
+1. **P07 – Accommodation and F&B Complaint Trend Analysis:** Reviews relevant complaint information and identifies recurring patterns.
+2. **P10 – Management Reporting:** Organises verified operational information and relevant analysis findings into a structured management report.
 
-**Input:** Aggregated guest feedback, complaint records and relevant operational information.
+**Expected outcome:** Improved visibility of guest complaint patterns and operational concerns to support management review and decision-making.
 
-1. **P07 – Accommodation and F&B Complaint Trend Analysis:** Analyses guest feedback to identify recurring complaints and operational patterns.
+### 7.4 Workflow C – Food Allergy and Dietary Safety
 
-2. **P08 – Hotel Operational Root Cause Analysis:** Uses the trend analysis results and supporting operational information to investigate possible underlying causes.
+**Purpose:** To support the careful handling of guest enquiries involving food allergies and dietary requirements.
 
-3. **P09 – Hotel Operational Improvement Action Plan:** Uses the identified root causes to develop practical corrective and preventive actions.
+**Prompt flow:**
 
-4. **P10 – Hotel Management Performance Report:** Uses the trend analysis, root cause findings and improvement action plan to prepare a structured management report.
+1. **P08 – Food Allergy Enquiry:** Identifies the allergy concern, separates confirmed information from unknown information and identifies what must be verified.
+2. The relevant kitchen or food and beverage employee checks ingredients, supplier information and possible cross-contact risks.
+3. An authorised employee communicates the verified information to the guest.
 
-**Expected outcome:** Management insights, operational improvement recommendations and a consolidated performance report to support decision-making.
+**Expected outcome:** A more structured approach to food allergy enquiries, with clear identification of information requiring verification.
 
-### Prompt Chaining and Human Oversight
+**Important:** AI cannot independently confirm that food is safe for a guest with an allergy. Ingredient and cross-contact information must be verified by authorised hotel staff before advice is given to the guest.
 
-The outputs from each prompt are used as inputs for subsequent prompts, where relevant. This creates a connected workflow rather than treating each prompt as an isolated AI task.
+### 7.5 Workflow D – Guest Complaint Handling
 
-The prompt chains are designed as a proposed workflow and may be executed manually by transferring outputs between prompts or through an AI platform that supports connected workflows.
+**Purpose:** To support the investigation and resolution of an individual guest complaint.
 
-Human review remains necessary, particularly for policy assessments, serious incidents, service recovery decisions and management recommendations.
+**Prompt flow:**
 
-AI-generated outputs must be checked for accuracy before being used in operational decisions.
+1. **P09 – Guest Complaint Handling:** Organises the complaint, separates guest-reported information from verified facts, assesses urgency and identifies required actions.
+2. Relevant hotel employees investigate the issue and check available operational records.
+3. Staff confirm available solutions, guest preferences and any required management approval.
+4. Serious hygiene, safety or service concerns are escalated to the appropriate manager.
+5. Staff verify that agreed actions have been completed and follow up with the guest.
 
-## 8. Prompt Development and Testing
+**Expected outcome:** More consistent complaint investigation, service recovery, escalation and follow-up.
 
-The prompts will be developed and refined through an iterative process.
+### 7.6 Prompt Chaining and Human Oversight
 
-Each prompt will include documented versions, beginning with an initial draft and progressing through testing and improvement.
+The proposed prompt chains are designed to demonstrate how information can move between different prompts.
 
-The development process will record:
+For this project, prompt chaining is a manual process. Employees transfer relevant outputs from one prompt into the next prompt where appropriate.
 
-- Prompt version
-- Changes made
-- Observed AI output
-- Issues identified
-- Lessons learned
-- Final refined version
+The project does not claim that the prompts are automatically connected to hotel systems or that actions are completed without employee involvement.
 
-GitHub will be used to maintain the prompt files and provide a record of development through its commit history.
+Human review remains necessary for:
 
-## 9. Risks, Limitations and Human Oversight
+- Confirming hotel policies and operational information.
+- Verifying food allergy and cross-contact information.
+- Approving compensation and service recovery actions.
+- Escalating serious complaints and incidents.
+- Checking guest communications before they are sent.
+- Confirming operational actions and management recommendations.
 
-The project recognises that AI-generated outputs may contain inaccurate information, misunderstand guest concerns or produce recommendations that do not comply with hotel policies.
+## 8. Prompt Development, Version Control and Testing
 
-Key considerations include:
+The prompts are developed through an iterative process.
 
-- **Accuracy:** Employees must verify AI-generated information before acting on it.
-- **Guest privacy:** Real guest personal information and confidential hotel data must not be entered into public AI tools.
-- **Policy compliance:** Recommendations must be checked against approved hotel policies and service standards.
-- **Human judgement:** Employees and managers remain responsible for complaint resolution and decisions involving serious incidents.
-- **Over-reliance:** AI should support employees rather than replace professional judgement.
+Each prompt is tested using realistic hospitality scenarios. The outputs are reviewed to identify weaknesses, unsupported assumptions, missing information and opportunities for improvement.
 
-## 10. Repository Structure
+Where necessary, revised prompt versions are created.
 
-The repository will be organised as follows:
+The development process includes:
+
+1. Creating the initial prompt.
+2. Testing the prompt using a realistic scenario.
+3. Reviewing the AI-generated output.
+4. Identifying issues and limitations.
+5. Updating the prompt instructions.
+6. Testing the revised version.
+7. Recording changes and observed effects.
+8. Identifying the recommended final version.
+
+GitHub is used to maintain project files and document changes.
+
+The repository includes prompt documentation, evaluation records and audit information to demonstrate the development and refinement process.
+
+## 9. Automation Potential and Human Oversight
+
+The prompt library demonstrates opportunities to support or partially automate selected hotel tasks.
+
+| Operational Area | Potential AI Support | Required Human Oversight |
+|---|---|---|
+| Guest enquiries | Classifying enquiries and extracting information | Staff verify details and availability. |
+| Guest complaints | Organising complaints and suggesting actions | Staff investigate and approve resolutions. |
+| Guest communication | Drafting guest responses | Staff review before sending. |
+| Complaint escalation | Identifying potential serious issues | Managers assess and make escalation decisions. |
+| Food allergy enquiries | Identifying risks and missing information | Kitchen or authorised staff verify safety information. |
+| Complaint analysis | Identifying recurring patterns | Managers validate findings and decide actions. |
+| Management reporting | Organising operational information | Managers verify data and approve decisions. |
+
+The prompts may reduce repetitive administrative work and improve consistency.
+
+However, they should be treated as decision-support tools rather than replacements for trained hospitality employees.
+
+## 10. Risks, Limitations and Responsible AI Use
+
+AI can produce inaccurate information, misunderstand guest enquiries or make assumptions when information is incomplete.
+
+The project recognises the following risks:
+
+**1. Inaccurate information**
+
+AI may generate information that is incorrect or unsupported.
+
+*Mitigation:* Employees must verify important information against reliable hotel records and approved procedures.
+
+**2. Food allergy and guest safety risks**
+
+Incorrect allergy information could create serious risks for guests.
+
+*Mitigation:* Ingredient, allergen and cross-contact information must be verified by authorised kitchen or food service employees. AI must not independently confirm food safety.
+
+**3. Unauthorised service recovery**
+
+AI may recommend compensation or benefits that have not been approved.
+
+*Mitigation:* Staff must follow hotel approval procedures before offering compensation or making commitments.
+
+**4. Privacy and confidentiality**
+
+Guest enquiries may contain personal or sensitive information.
+
+*Mitigation:* Staff should follow hotel privacy procedures and avoid entering unnecessary personal information into AI tools.
+
+**5. Incorrect escalation decisions**
+
+AI may fail to recognise the seriousness of a complaint or may recommend an unsuitable priority.
+
+*Mitigation:* Employees and managers must review serious complaints, safety issues and incidents.
+
+**6. Over-reliance on AI**
+
+Employees may rely too heavily on AI-generated recommendations.
+
+*Mitigation:* AI outputs should support, not replace, employee judgement, professional knowledge and management decisions.
+
+## 11. Repository Structure
+
+The GitHub repository is used to organise the prompt library, testing documentation and project records.
+
+The main project structure includes:
 
 ```text
-hospitality-ai-prompt-library/
+Prompt-Library
+│
+├── audit_log
+│   ├── prompt_audit_log.md
+│
+├── evaluation
+│   ├── P01_Test_Results
+│   ├── P02_Test_Results
+│   ├── P03_Test_Results
+│   ├── P04_Test_Results
+│   ├── P05_Test_Results
+│   ├── P06_Test_Results
+│   ├── P07_Test_Results
+│   ├── P08_Test_Results
+│   ├── P09_Test_Results
+│   └── P10_Test_Results
+│
+├── prompts
+│   ├── P01-guest_classification
+│   ├── P02-guest_information
+│   ├── P03-policy_assessment
+│   ├── P04-guest_service_recovery
+│   ├── P05-proffessional_guest_response
+│   ├── P06-serious_incident_escalation
+│   ├── P07-complaint_trend_analysis
+│   ├── P08-food-allergy-enquiry
+│   ├── P09-guest-complaint-handling
+│   └── P10-management-reporting
+│   └── README.md
+│
+├── sample _data
+│   ├── guest-feedback-samples
 │
 ├── README.md
-│
-├── prompts/
-│   ├── README.md
-│   ├── P01_Guest_Classification.md
-│   ├── P02_Guest_Information.md
-│   ├── P03_Policy_Assessment.md
-│   ├── P04_Service_Recovery.md
-│   ├── P05_Guest_Response.md
-│   ├── P06_Incident_Escalation.md
-│   ├── P07_Trend_Analysis.md
-│   ├── P08_Root_Cause.md
-│   ├── P09_Improvement_Plan.md
-│   └── P10_Management_Report.md
-│
-├── audit-log/
-│   └── prompt-audit-log.md
-│
-├── testing/
-│
-├── sample-data/
-│
-└── report/
+
 ```
 
-## 11. Expected Outcome
+The structure provides a central location for prompt documentation, testing evidence, audit records and project information.
 
-The expected outcome is a structured and tested AI prompt library demonstrating how generative AI can support hotel accommodation and F&B operations.
+## 12. Expected Business Benefits
 
-The project will evaluate the usefulness of AI prompting in improving workflow consistency, reducing repetitive administrative effort and supporting data-informed management decisions.
+The proposed AI Prompt Library may provide the following benefits to HarbourView Hotel:
 
-The effectiveness of the proposed prompts will be assessed through documented testing, observations and iterative refinement.
+- More consistent guest enquiry handling.
+- Improved organisation of guest information.
+- More structured complaint investigation.
+- Better identification of serious complaints requiring escalation.
+- More consistent guest communication.
+- Improved awareness of recurring guest concerns.
+- Better organisation of operational information.
+- Support for management reporting and decision-making.
+- Reduced time spent on repetitive administrative tasks.
 
----
+These are expected benefits of the proposed approach. Actual improvements would need to be measured through implementation and operational evaluation.
 
+## 13. Project Conclusion
+
+The Hospitality AI Prompt Library demonstrates how structured AI prompts can support different areas of hotel operations.
+
+The project includes 10 specialised prompts covering guest enquiries, complaints, service recovery, food allergy enquiries, complaint analysis and management reporting.
+
+Through testing, evaluation and prompt refinement, the project demonstrates the importance of clear instructions, accurate information and responsible AI use.
+
+The proposed prompt workflows also demonstrate how prompts can be connected through manual prompt chaining to support more structured operational processes.
+
+Although AI can assist with administrative tasks and decision support, human oversight remains essential. Hotel employees must verify information, protect guest privacy, approve operational decisions and take responsibility for guest safety and service delivery.
+
+Overall, the project provides a structured example of how AI can be introduced into hospitality operations responsibly while supporting service consistency and operational efficiency.
